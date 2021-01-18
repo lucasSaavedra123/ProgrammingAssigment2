@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## We build a list to cache data of a matrix (the matrix and its inverse)
 makeCacheMatrix <- function(x = matrix()) {
   inverseMatrix <- NULL
 
@@ -23,6 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## When we need the inverse of a matrix, this function will solve it for us. Sometimes we will have it cached.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
